@@ -1,0 +1,21 @@
+React Playlist:
+
+basic requirements:
+
+[x] als gebruiker wil ik de volgende gegevens kunnen invullen over mijn nummer:
+    [x]Titel (inputfield)
+    [x]Artiest (inputfield)
+    [x]genre (inputfield)
+    [x]rating (dropdown)
+[x] als gebruiker wil ik op één button kunnen klikken waardoor mijn ingevulde song op de playlist verschijnt
+[x] als gebruiker wil ik mijn nummers kunnen zien in een overzicht - de playlist
+
+'bonus' requirements:
+
+[x] minimaal 3 punten!
+    [x] 1 punt - sorteren van liedjes op naam of artiest of rating
+    [x] 1 punt - delete knop - verwijderen van liedjes uit de state
+    [-] 1 punt - categoriseren - elk genre krijgt zijn eigen lijstje en het nummer wat je toevoegt komt bij 
+    het respectievelijke lijstje (alleen bij dropdown genres)
+    [] 2 punten - filteren van liedjes op rating -> dropdown met checkboxes: meerdere selecties mogelijk
+    [x] 2 punten - Routing - toevoegen navbar met about pagina
