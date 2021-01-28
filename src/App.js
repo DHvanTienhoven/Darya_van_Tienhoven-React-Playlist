@@ -1,10 +1,16 @@
 import './App.css';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import SongOverview from './components/SongOverview'
-import Header from './components/Header'
-import About from './components/About'
+import SongOverview from './components/SongOverview';
+import Header from './components/Header';
+import About from './components/About';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'React playlist'
+  })
+
   return (
     <Router>
       <div className="App">
@@ -12,14 +18,14 @@ function App() {
         <Route
           exact path="/"
           component=
-          {SongOverview }
+          {SongOverview}
         />
         <Route
           path="/about"
           component=
           {About}
         />
-      
+
       </div>
     </Router>
   );
